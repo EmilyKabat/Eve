@@ -51,22 +51,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <right class = goodActionsTitle>Bad Actions &nbsp&nbsp&nbsp Good Actions!</right>
   <div class="w3-content">
     <div class="w3-twothird">
-      <span> <center><button class = 'badActions' onclick = minus()>Flew in a plane :(</button><button class = "goodActions" onclick = plus()>Carpooled!</button>
-        <br><br><button class = 'badActions' onclick = minus()>Used single-use plastic :(</button>
+      <span> <center><button id = 'plane' onclick = minus()>Flew in a plane :(</button>
+        <button class = "goodActions" onclick = plus()>Carpooled!</button>
+        <br><br><button id = 'plastic' onclick = minus()>Used single-use plastic :(</button>
         <button class = 'goodActions' onclick = plus()>Rode mass transit!</button>
-        <br><br><button class = 'badActions' onclick = minus()>Rode in a car by myself :(</button>
+        <br><br><button id = 'carAlone' onclick = minus()>Rode in a car by myself :(</button>
         <button class = 'goodActions' onclick = plus()>Took a quick shower!</button>
-        <br><br><button class = 'badActions' onclick = minus()>Ran a half load of laundry :(</button>
+        <br><br><button id = 'laundry' onclick = minus()>Ran a half load of laundry :(</button>
         <button class = 'goodActions' onclick = plus()>Used a reusable mug!</button>
-        <br><br><button class = 'badActions' onclick = minus()>Took a long shower :(</button>
+        <br><br><button id = 'shower' onclick = minus()>Took a long shower :(</button>
         <button class = 'goodActions' onclick = plus()>Used a metal straw!</button>
-        <br><br><button class = 'badActions' onclick = minus()>Bought fast fashion :(</button>
+        <br><br><button id = 'fasion' onclick = minus()>Bought fast fashion :(</button>
         <button class = 'goodActions' onclick = plus()>Used my fan instead of AC!</button>
-        <br><br><button class = 'badActions' onclick = minus()>Littered a park :(</button>
+        <br><br><button id = 'littered' onclick = minus()>Littered a park :(</button>
         <button class = 'goodActions' onclick = plus()>Used a reusable bag</button>
-        <br><br><button class = 'badActions' onclick = minus()>Used the AC :(</button>
+        <br><br><button id = 'ac' onclick = minus()>Used the AC :(</button>
         <button class = 'goodActions' onclick = plus()>Recycled something!</button>
-        <br><br><button class = 'badActions' onclick = minus()>Let go of a balloon :(</button>
+        <br><br><button id = 'balloon' onclick = minus()>Let go of a balloon :(</button>
         <button class = 'goodActions' onclick = plus()>Used solar charge!</button>
         <br><br><button id = "id">Score = 0</button>
       </span>
