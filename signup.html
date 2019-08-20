@@ -23,6 +23,11 @@ position:absolute;
 top: 80px;
 left:250px;
 }
+  
+#display-image{
+  position: relative;
+  top: -300px;
+}
 
 </style>
 <div class="w3-top">
@@ -220,7 +225,7 @@ document.getElementById("loadingImage").src = "bmo.jpg";
 <b><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather"><font size = '15px'><u><center> Weekly Updates </u></font></center></b></link>
 <div class = "next">
 <input id= "upload" type = "file" onChange = "handleImageUpload()">
-<img class = "next" id = "display-image" src =""/>
+<img class = "next" id = "display-image" src =""/ width = "300" height = "300" align = "right" position = "relative" top = "-500px">
 </div>
 Description: <textarea rows="4" cols="50"></textarea>
 <form name="myForm" action="/action_page.php" method="get" class ="name">
